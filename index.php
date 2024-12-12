@@ -186,7 +186,7 @@ $categories = $conn->query("SELECT DISTINCT category FROM tasks ORDER BY categor
 
             <!-- Task List -->
             <div class="content">
-                <h4>Task List</h4>
+                <h4>Task Lists</h4>
                 <table class="task-table">
                     <thead>
                         <tr>
