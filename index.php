@@ -161,7 +161,7 @@ $categories = $conn->query("SELECT DISTINCT category FROM tasks ORDER BY categor
     <div class="d-flex">
         <!-- Sidebar -->
         <div class="sidebar">
-            <h4>Categories</h4>
+            <h4>Categorie</h4>
             <a href="?" class="<?php echo ($categoryFilter == '') ? 'active' : ''; ?>">All Tasks</a>
             <?php while ($cat = $categories->fetch_assoc()): ?>
                 <a href="?category=<?php echo htmlspecialchars($cat['category']); ?>" 
