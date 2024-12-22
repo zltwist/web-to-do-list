@@ -1,5 +1,5 @@
 <?php
-include 'database.php';
+include 'database.php'
 
 // Tambah atau Update tugas
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
