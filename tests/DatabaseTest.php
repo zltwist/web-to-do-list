@@ -3,7 +3,7 @@ use PHPUnit\Framework\TestCase;
 
 class DatabaseTest extends TestCase {
     public function testDatabaseConnection() {
-        require 'databases.php'; // Pastikan file ini sudah sesuai
+        require 'database.php'; // Pastikan file ini sudah sesuai
         $this->assertNotNull($conn); // Cek koneksi tidak null
     }
 
