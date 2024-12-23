@@ -9,7 +9,7 @@ class DatabaseTest extends TestCase {
 
     public function testQueryExecution() {
         require 'database.php';
-        $result = $conn->query('SELECT * FROM users');
+        $result = $conn->query('SELECT * FROM tasks');
         $this->assertGreaterThan(0, $result->num_rows); // Pastikan ada hasil dari query
     }
 }
